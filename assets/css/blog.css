@@ -36,7 +36,7 @@ div{
 #theme{
     background-image: url('https://placehold.co/50x50');
     background-size: cover;
-    width: 50px;
+    width: 55px;
     height: 50px;
     margin: 3% 3% 3% 8%;
 }
@@ -50,9 +50,43 @@ main{
 footer{
     border-style: solid;
     border-top-width: var(--brdrWidth);
-    height: 20%;
+    height: 15%;
     position: relative;
     bottom: 0;
     margin-left: .3%;
     margin-right: .3%
+}
+h3{
+    text-align: center;
+    margin-bottom:  15px;
+}
+
+/*will only apply in javascript to post boxes*/
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.postHeader{
+    font-size: large;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+}
+.postSpan{
+    font-style: italic;
+    min-height: 3rem;
+    text-indent: 10px;
+    color: rgb(49, 49, 49);
+
+}
+
+.postFooter{
+    margin-top:3px;
+    border-width: 0 0 0 0;
+    font-size: small;
+    color:gray
 }

@@ -1,0 +1,72 @@
+/*blog page*/
+
+.postLight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.postHeaderLight{
+    font-size: large;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+}
+.postSpanLight{
+    font-style: italic;
+    min-height: 3rem;
+    text-indent: 10px;
+    color: rgb(49, 49, 49);
+
+}
+
+.postFooterLight{
+    margin-top:3px;
+    border-width: 0 0 0 0;
+    font-size: small;
+    color:gray
+}
+
+
+
+/*dark*/
+.wordsBorder{
+    color:white;
+}
+
+.postDark{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-color: white;
+}
+.postHeaderDark{
+    font-size: large;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+    border-color:white;
+}
+.postSpanDark{
+    font-style: italic;
+    min-height: 3rem;
+    text-indent: 10px;
+    color: white;
+
+}
+
+.postFooterDark{
+    margin-top:3px;
+    border-width: 0 0 0 0;
+    font-size: small;
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*form page*/

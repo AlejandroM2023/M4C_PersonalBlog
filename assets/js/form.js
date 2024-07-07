@@ -47,6 +47,7 @@ submitButton.addEventListener('click',function(event){
     event.preventDefault();
     if(boxIsNotEmpty()){
         addPost(inputBoxes[0].value,inputBoxes[1].value,inputBoxes[2].value);
+        window.open("./blog.html","_self");
     }
 
 });

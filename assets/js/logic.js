@@ -11,5 +11,6 @@ function addPost(userName,title,txt){
     const postArr = JSON.parse(localStorage.getItem("postObjectArray")) ;
     postArr.push(post);
     localStorage.setItem("postObjectArray",JSON.stringify(postArr));
+    
 
 }

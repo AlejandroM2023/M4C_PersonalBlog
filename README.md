@@ -12,7 +12,7 @@ In this web application the user uses a username, title and content input box wh
 
 ![alt text](./assets/images/image-1.png)
 
-link to github pages: https://alejandrom2023.github.io/Module3Challange/
+link to github pages: https://alejandrom2023.github.io/M4C_PersonalBlog/
 
 
 ## Installation

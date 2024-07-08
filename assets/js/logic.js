@@ -36,4 +36,6 @@ function checkTheme(){
     return bl;
 }
 
-//will take in a section of html and add class for dark mode 
+
+//theme switching
+

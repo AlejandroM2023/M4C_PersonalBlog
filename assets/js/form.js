@@ -1,6 +1,9 @@
 
 //variables
 
+//load button
+const theme = document.getElementById("theme");
+
 //submit button
 const submitButton = document.getElementById("submit");
 
@@ -51,3 +54,50 @@ submitButton.addEventListener('click',function(event){
     }
 
 });
+
+//them change
+
+theme.onclick =function(){
+    if(checkTheme()){
+        ligthMode();
+        setTheme();
+    }else{
+        darkMode();
+        setTheme();
+    }
+};
+
+function darkMode(){
+    //body color
+    const body = document.querySelector("body");
+    body.setAttribute('style', 'background: black');
+    body.setAttribute('class','wordsBorder');
+    const header = document.querySelector("header");
+    header.setAttribute('style','border-color:white');
+
+    const sub = document.querySelector("#submit");
+    sub.setAttribute('style', 'background: white; color:black');
+
+    theme.setAttribute('style','background-image: url(\'./assets/images/sun.png\')');
+
+}
+
+function ligthMode(){
+    const body = document.querySelector("body");
+    body.setAttribute('style', 'background: #e4e2df');
+    body.setAttribute('class','');
+    const header = document.querySelector("header");
+    header.setAttribute('style','border-color:black');
+    const sub = document.querySelector("#submit");
+    sub.setAttribute('style', 'background: black; color:white');
+    theme.setAttribute('style','background-image: url(\'./assets/images/moon.png\')');
+
+}
+
+//set theme to user default
+if(checkTheme()){
+    darkMode();
+    
+}else{
+    ligthMode();
+}

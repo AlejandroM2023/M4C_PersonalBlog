@@ -7,9 +7,7 @@ const feed = document.getElementById("feed");
 //load button
 const theme = document.getElementById("theme");
 
-//elements to get theme modifications
-const headerEl = document.getElementById
-
+const back = document.getElementById("back");
 
 
 function createHeader(title){
@@ -137,6 +135,11 @@ function ligthMode(){
     theme.setAttribute('style','background-image: url(\'./assets/images/moon.png\')');
 
 }
+back.addEventListener('click',function(){
+    
+    window.open("./index.html","_self");
+
+});
 
 //will load post when page is loaded
 loadPosts();
